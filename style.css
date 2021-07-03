@@ -13,6 +13,7 @@ span{
 }
 section{
     display: flex;
+    margin-bottom: 70px;
 }
 .half-width{
     width: 50%;
@@ -21,7 +22,7 @@ section{
 .half-width img{
     width: 80%;
 }
-.hear{
+.link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     /* color: white; */
@@ -31,4 +32,9 @@ section{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.drem-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
